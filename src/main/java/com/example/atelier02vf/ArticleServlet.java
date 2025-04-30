@@ -27,7 +27,7 @@ public class ArticleServlet extends HttpServlet {
         // Ajouter un article si tous les champs sont fournis
         if (reference != null && libelle != null && quantity != null &&
                 !reference.isEmpty() && !libelle.isEmpty() && !quantity.isEmpty()) {
-            String articleStr = "Ref: " + reference + ", Libellé: " + libelle + ", Qté: " + quantity;
+            String articleStr = "Ref: " + reference + ", Libelle: " + libelle + ", Quantité: " + quantity;
             articles.add(articleStr);
         }
 

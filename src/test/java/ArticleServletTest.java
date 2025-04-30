@@ -46,8 +46,8 @@ public class ArticleServletTest {
 
         // Vérifications
         assertTrue(result.contains("Ref: HP-123"));
-        assertTrue(result.contains("Libellé: HP EliteBook"));
-        assertTrue(result.contains("Qté: 5"));
+        assertTrue(result.contains("Libelle: HP EliteBook"));
+        assertTrue(result.contains("Quantite: 5"));
         assertTrue(articles.contains("Ref: HP-123, Libellé: HP EliteBook, Qté: 5"));
     }
 }
